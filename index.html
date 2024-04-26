@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wikipedia - Como Ficar Rico</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://pt.wikipedia.org/static/images/icons/wikipedia.png" alt="Logo Wikipedia" />
+        </div>
+        <div class="wordmark">
+            <p>Wikipédia</p>
+            <span>A enciclopédia livre</span>
+        </div>
+        <h1>Desafio da Trilha HTML Developer da <a href="https://www.dio.me/curso-html">Dio.me</a> - Réplica da
+            Wikipédia</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Artigo</a></li>
+            <li><a href="#">Discussão</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <aside>
+            <h1>Conteúdo</h1>
+            <hr />
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#episodios">Episódios</a></li>
+                <li><a href="#referencias">Referências</a></li>
+            </ul>
+        </aside>
+
+        <main id="inicio">
+            <h1>Imagens Aleatórias</h1>
+            <hr />
+
+            <p>
+                Para gerar uma imagem aleatória é bem simples, basta você saber o tamanho que você precisa, ou seja,
+                LarguraxAltura.
+                <br>
+                Existe um site, do tipo banco de dados, que serve para nos entregar uma imagem de
+                acordo com o tamanho que você peça a ele, e vou te explicar exatamente como fazer isso.
+                <br>
+                Para acessar estas imagens e poder usar em seus projetos basta acessar <a
+                    href="https://source.unsplash.com/random/1080x720"
+                    target="_blank">https://source.unsplash.com/random/1080x720(ou
+                    qualquer outro tamanho)</a>, lembrando sempre que são imagens aleatórias.
+            </p>
+
+            <h2 id="episodios">Imagem tamanho (700x600):</h2>
+            <hr>
+            <img src="https://source.unsplash.com/random/700x600" alt="">
+            <hr>
+
+
+            <h2 id="referencias">Referências</h2>
+            <hr>
+            <p>
+            <ol>
+                <li><a href="https://source.unsplash.com/" target="_blank">Source unsplash</a></li>
+                <li><a href="https://www.dio.me/curso-html">Dio.me - Formação HTML Developer</a></li>
+            </ol>
+            </p>
+        </main>
+
+        <div class="anchors">
+            <table>
+                <caption>
+                    Imagem Aleatória
+                </caption>
+                <thead>
+                    <tr>
+                        <th colspan="2">
+                            <img src="https://source.unsplash.com/random/300x420" width="220px"
+                                alt="Imagem de capa da série da netflix como ficar rico" />
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Tamanho</th>
+                        <td>300x420</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer>
+        <span>Desenvolvido por <strong>
+            <a href="https://github.com/mat-henriqu" target="_blank"> &copy; Matheus
+                    Henrique</a></strong>.</span>
+    </footer>
+</body>
+</html>
